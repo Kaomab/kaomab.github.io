@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-secondary: #037f88;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #a7274dbd;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -187,14 +187,14 @@ section {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding-right: 18rem;
+      padding-right: 17rem;
       .name {
-          font-size: 3rem;
+          font-size: 1.2rem;
           span { color: var(--color-secondary); }
       }
       p {
           margin: 1.5rem 0;
-          line-height: 2rem;
+          line-height: 1.5rem;
       }
   }
 }
@@ -298,11 +298,9 @@ section {
                       transition: all .4s ease-in-out;
                       width: 60%;
                   }
-                  .html { width: 80%; }
-                  .css { width: 95%; }
-                  .js { width: 75%; }
-                  .react{ width: 60%; }
-                  .node{ width: 87%; }
+                  .html { width: 77%; }
+                  .css { width: 80%; }
+                  .js { width: 72%; }
                   .python{ width: 70%; }
               }
           }
